@@ -13,25 +13,25 @@
         <title>Etch a Sketch</title>
 
     </head>
-    
+
     <body>
         <h2><span class="er">〇</span>〇Etch a Skecth〇<span class="er">〇</span></h2>
         <div id="design">
             <div id="container">
             </div>
             <div id="commands">
-            <button>Reset</button>
-            <button>Eraser</button>  
-            <button>New Grid</button>    
+                <button id="reset" onclick="resetGrid()">Reset</button>
+                <button onclick="eraserActive()" id="eraser">Eraser</button>
+                <button id="new-grid" onclick="createNewGrid()">New Grid</button>    
             </div>
         </div>
-        
+
     </body>
-    
+
     <footer>
         <span>This page was made as an assignment for 
-					<a href="https://www.theodinproject.com/dashboard">The Odin Project</a>. My source files are available on 
-					<a href="https:github.com/nicolasnazzaro/rock_paper_scissors">GitHub</a>!</span>
+            <a href="https://www.theodinproject.com/dashboard">The Odin Project</a>. My source files are available on 
+            <a href="https:github.com/nicolasnazzaro/rock_paper_scissors">GitHub</a>!</span>
     </footer>
-    
+
 </html>
