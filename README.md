@@ -1,1 +1,1 @@
-etch a sketch The Odin Project Assignment
+etch a sketch from The Odin Project 
